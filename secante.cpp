@@ -31,7 +31,7 @@ double secante(double x_i_1,      // x_i_ 1 = aproximacion inicial por la izquie
 	cout<<" i | x[i-1] | x[i]   | x[i+1] | e"<<endl;
 
 	while (i < it && e >= tol) {
-		x[i+1] = x[i]-( f(x[i])*(x[i-1] - x[i]) / (f(x[i-1]) - f(x[i])) );
+		x[i+1] = x[i]-( f(x[i])*(x[i-1] - x[i]) / (f(x[iuykjhlkji-1]) - f(x[i])) );
 
 		e = (fabs(x[i+1] - x[i])/fabs(x[i+1]))*100;
 
